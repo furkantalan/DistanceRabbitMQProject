@@ -1,38 +1,29 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
-using DemandManagement.Api.Model;
 using DemandManagement.MessageContracts;
-using MassTransit;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DemandManagement.Api.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/distance")]
     [ApiController]
     public class DemandController : ControllerBase
     {
 
 
-        // POST: api/Demand
+        // POST: api/distance
         [HttpPost]
-        public async Task<IActionResult> Post([FromBody] RegisterDemandModel demand)
+        public async Task<IActionResult> GiveDistanceCalculationRequest([FromBody] DistanceRequest request)
         {
 
             var bus = BusConfigurator.ConfigureBus();
 
             var sendToUri = new Uri($"{RabbitMqConsts.RabbitMqUri}{RabbitMqConsts.RegisterDemandServiceQueue}");
             var endPoint = await bus.GetSendEndpoint(sendToUri);
+            
+            await endPoint.Send(request);
 
-            await endPoint.Send<IRegisterDemandCommand>(new
-            {
-                Subject = demand.Subject,
-                Description = demand.Description
-            });
-
-            return Ok("Thanks");
+            return Ok("Distance will be shown in console application.");
         }
 
 

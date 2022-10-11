@@ -31,7 +31,7 @@ namespace DemandManagement.Registration
 
             bus.StartAsync();
 
-            Console.WriteLine("Listening for Register Demand commands.. " +
+            Console.WriteLine("Listening for Register distance request commands.. " +
                               "Press enter to exit");
             Console.ReadLine();
 

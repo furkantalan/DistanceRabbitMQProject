@@ -15,3 +15,13 @@ C:\Users\facet\Desktop\New folder\DemandManagement\DemandManagement.MessageContr
 C:\Users\facet\Desktop\New folder\DemandManagement\DemandManagement.MessageContracts\obj\Debug\netcoreapp3.1\DemandManagement.MessageContracts.csproj.CoreCompileInputs.cache
 C:\Users\facet\Desktop\New folder\DemandManagement\DemandManagement.MessageContracts\obj\Debug\netcoreapp3.1\DemandManagement.MessageContracts.dll
 C:\Users\facet\Desktop\New folder\DemandManagement\DemandManagement.MessageContracts\obj\Debug\netcoreapp3.1\DemandManagement.MessageContracts.pdb
+C:\Users\SahaBT Yazılım\source\repos\fyzact\DemandManagement\DemandManagement.MessageContracts\bin\Debug\netcoreapp3.1\DemandManagement.MessageContracts.deps.json
+C:\Users\SahaBT Yazılım\source\repos\fyzact\DemandManagement\DemandManagement.MessageContracts\bin\Debug\netcoreapp3.1\DemandManagement.MessageContracts.dll
+C:\Users\SahaBT Yazılım\source\repos\fyzact\DemandManagement\DemandManagement.MessageContracts\bin\Debug\netcoreapp3.1\DemandManagement.MessageContracts.pdb
+C:\Users\SahaBT Yazılım\source\repos\fyzact\DemandManagement\DemandManagement.MessageContracts\obj\Debug\netcoreapp3.1\DemandManagement.MessageContracts.csproj.AssemblyReference.cache
+C:\Users\SahaBT Yazılım\source\repos\fyzact\DemandManagement\DemandManagement.MessageContracts\obj\Debug\netcoreapp3.1\DemandManagement.MessageContracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SahaBT Yazılım\source\repos\fyzact\DemandManagement\DemandManagement.MessageContracts\obj\Debug\netcoreapp3.1\DemandManagement.MessageContracts.AssemblyInfoInputs.cache
+C:\Users\SahaBT Yazılım\source\repos\fyzact\DemandManagement\DemandManagement.MessageContracts\obj\Debug\netcoreapp3.1\DemandManagement.MessageContracts.AssemblyInfo.cs
+C:\Users\SahaBT Yazılım\source\repos\fyzact\DemandManagement\DemandManagement.MessageContracts\obj\Debug\netcoreapp3.1\DemandManagement.MessageContracts.csproj.CoreCompileInputs.cache
+C:\Users\SahaBT Yazılım\source\repos\fyzact\DemandManagement\DemandManagement.MessageContracts\obj\Debug\netcoreapp3.1\DemandManagement.MessageContracts.dll
+C:\Users\SahaBT Yazılım\source\repos\fyzact\DemandManagement\DemandManagement.MessageContracts\obj\Debug\netcoreapp3.1\DemandManagement.MessageContracts.pdb
